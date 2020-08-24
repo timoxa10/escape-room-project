@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Лучшие квесты в Escape Room</title>
+  <link rel="preload" href="fonts/Raleway-Black.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Raleway-Bold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Raleway-ExtraBold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Raleway-Medium.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Raleway-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Raleway-SemiBold.woff2" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <nav class="page-nav page-nav--closed page-nav--nojs">
+    <div class="page-nav__top page-nav-top page-nav-top--closed page-nav-top--nojs">
+      <div class="page-nav-top__content">
+        <div class="page-nav-top__wrapper">
+          <a class="page-nav-top__logo" href="index.html">
+            <img class="page-nav-top__logo-image" src="img/D-logo.svg" width="96" height="36" alt="Логотип Escape Room">
+          </a>
+          <div class="page-nav-top__button">
+            <p class="page-nav-top__mobile">Меню</p>
+            <button class="page-nav-top__toggle" type="button">
+              <span class="visually-hidden">Открыть меню</span>
+            </button>
+          </div>
+        </div>
+        <div class="page-nav-top__list">
+          <ul class="page-nav-top__nav header-page-nav">
+            <li class="header-page-nav__item">
+              <a class="header-page-nav__link header-page-nav__link--active" href="quests.html">Квесты</a>
+            </li>
+            <li class="header-page-nav__item">
+              <a class="header-page-nav__link" href="#">Новичкам</a>
+            </li>
+            <li class="header-page-nav__item">
+              <a class="header-page-nav__link" href="#">Отзывы</a>
+            </li>
+            <li class="header-page-nav__item">
+              <a class="header-page-nav__link" href="#">Акции</a>
+            </li>
+            <li class="header-page-nav__item">
+              <a class="header-page-nav__link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <button class="page-nav-top__city">Новосибирск</button>
+          <a class="page-nav-top__phone" href="tel:83832840160">8 (383) 284 01 60</a>
+        </div>
+      </div>
+    </div>
+    <div class="page-nav__social page-nav-social">
+      <ul class="page-nav-social__list social">
+        <li class="social__item">
+          <a class="social__link social__link--ig" href="#">
+            <span class="visually-hidden">Мы в Инстаграме</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--vk" href="#">
+            <span class="visually-hidden">Мы во Вконтакте</span>
+          </a>
+        </li>
+      </ul>
+      <button class="page-nav-social__form">Задать вопрос</button>
+    </div>
+  </nav>
+  <main class="quests content-wrapper">
+    <div class="quests__wrapper">
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs__item">квесты в Новосибирске</li>
+      </ul>
+      <section class="quests__list">
+        <h1 class="quests__title title">Выберите тематику</h1>
+        <ul class="quests__menu scroll-menu">
+          <li class="scroll-menu__item">
+            <span class="scroll-menu__logo">
+              <svg class="scroll-menu__icon scroll-menu__icon--all" width="26" height="30">
+                <use xlink:href="img/sprite.svg#icon-all-quests"></use>
+              </svg>
+            </span>
+            <p class="scroll-menu__text scroll-menu__text--active">Все квесты</p>
+          </li>
+          <li class="scroll-menu__item">
+            <span class="scroll-menu__logo">
+              <svg class="scroll-menu__icon scroll-menu__icon--adventures" width="36" height="30">
+                <use xlink:href="img/sprite.svg#icon-quest-adventures"></use>
+              </svg>
+            </span>
+            <p class="scroll-menu__text">Приключения</p>
+          </li>
+          <li class="scroll-menu__item">
+            <span class="scroll-menu__icon scroll-menu__icon--horror">
+              <svg class="scroll-menu__icon-all" width="30" height="30">
+                <use xlink:href="img/sprite.svg#icon-quest-horror"></use>
+              </svg>
+            </span>
+            <p class="scroll-menu__text">Ужасы</p>
+          </li>
+          <li class="scroll-menu__item">
+            <span class="scroll-menu__logo">
+              <svg class="scroll-menu__icon scroll-menu__icon--mystic" width="30" height="30">
+                <use xlink:href="img/sprite.svg#icon-quest-mystic"></use>
+              </svg>
+            </span>
+            <p class="scroll-menu__text">Мистика</p>
+          </li>
+          <li class="scroll-menu__item">
+            <span class="scroll-menu__logo">
+              <svg class="scroll-menu__icon scroll-menu__icon--crimestory" width="40" height="30">
+                <use xlink:href="img/sprite.svg#icon-quest-crimestory"></use>
+              </svg>
+            </span>
+            <p class="scroll-menu__text">Детектив</p>
+          </li>
+          <li class="scroll-menu__item">
+            <span class="scroll-menu__logo">
+              <svg class="scroll-menu__icon scroll-menu__icon--scifi" width="28" height="30">
+                <use xlink:href="img/sprite.svg#icon-quest-sci-fi"></use>
+              </svg>
+            </span>
+            <p class="scroll-menu__text">Sci-fi</p>
+          </li>
+        </ul>
+        <section class="quests__items">
+          <a href="#" class="quests__item quests__badge" onclick="">
+            <div class="quests__item-child quests__item-child--tomb">
+              <div class="quests__item-wrapper">
+                <h3 class="quests__item-title">Склеп</h3>
+                <p class="quests__item-address">пр. Ленина, 37</p>
+                <div class="quests__item-rules">
+                  <p class="quests__item-members">2–5 чел</p>
+                  <p class="quests__item-complexity">сложный</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="quest-maniac.html" class="quests__item quests__badge" onclick="">
+            <div class="quests__item-child quests__item-child--maniac">
+              <div class="quests__item-wrapper">
+                <h3 class="quests__item-title">Маньяк</h3>
+                <p class="quests__item-address">Верхнетецкая, 32</p>
+                <div class="quests__item-rules">
+                  <p class="quests__item-members">3–6 чел</p>
+                  <p class="quests__item-complexity">средний</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="quest-ritual.html" class="quests__item" onclick="">
+            <div class="quests__item-child quests__item-child--ritual">
+              <div class="quests__item-wrapper">
+                <h3 class="quests__item-title">Ритуал</h3>
+                <p class="quests__item-address">пр. Ленина, 37</p>
+                <div class="quests__item-rules">
+                  <p class="quests__item-members">3–5 чел</p>
+                  <p class="quests__item-complexity">сложный</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="quests__item" onclick="">
+            <div class="quests__item-child quests__item-child--ghosts">
+              <div class="quests__item-wrapper">
+                <h3 class="quests__item-title">История призраков</h3>
+                <p class="quests__item-address">Новослободская, 2а</p>
+                <div class="quests__item-rules">
+                  <p class="quests__item-members">5–6 чел</p>
+                  <p class="quests__item-complexity">легкий</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="quest-mansion.html" class="quests__item" onclick="">
+            <div class="quests__item-child quests__item-child--mansion">
+              <div class="quests__item-wrapper">
+                <h3 class="quests__item-title">Тайны старого<br> особняка</h3>
+                <p class="quests__item-address">пр. Ленина, 37</p>
+                <div class="quests__item-rules">
+                  <p class="quests__item-members">2–5 чел</p>
+                  <p class="quests__item-complexity">легкий</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="quests__item" onclick="">
+            <div class="quests__item-child quests__item-child--woods">
+              <div class="quests__item-wrapper">
+                <h3 class="quests__item-title">Хижина в лесу</h3>
+                <p class="quests__item-address">Верхнетецкая, 32</p>
+                <div class="quests__item-rules">
+                  <p class="quests__item-members">4–7 чел</p>
+                  <p class="quests__item-complexity">средний</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="quest-experiment.html" class="quests__item" onclick="">
+            <div class="quests__item-child quests__item-child--experiment">
+              <div class="quests__item-wrapper">
+                <h3 class="quests__item-title">Фатальный<br> эксперимент</h3>
+                <p class="quests__item-address">Верхнетецкая, 32</p>
+                <div class="quests__item-rules">
+                  <p class="quests__item-members">5–8 чел</p>
+                  <p class="quests__item-complexity">сложный</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="quests__item" onclick="">
+            <div class="quests__item-child quests__item-child--subway">
+              <div class="quests__item-wrapper">
+                <h3 class="quests__item-title">Метро 2033</h3>
+                <p class="quests__item-address">Новослободская, 2а</p>
+                <div class="quests__item-rules">
+                  <p class="quests__item-members">6–8 чел</p>
+                  <p class="quests__item-complexity">средний</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="quests__item" onclick="">
+            <div class="quests__item-child quests__item-child--attic">
+              <div class="quests__item-wrapper">
+                <h3 class="quests__item-title">Старый чердак</h3>
+                <p class="quests__item-address">Новослободская, 2а</p>
+                <div class="quests__item-rules">
+                  <p class="quests__item-members">2–3 чел</p>
+                  <p class="quests__item-complexity">легкий</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="quests__item" onclick="">
+            <div class="quests__item-child quests__item-child--frontier">
+              <div class="quests__item-wrapper">
+                <h3 class="quests__item-title">Последний рубеж</h3>
+                <p class="quests__item-address">Верхнетецкая, 32</p>
+                <div class="quests__item-rules">
+                  <p class="quests__item-members">4–7 чел</p>
+                  <p class="quests__item-complexity">средний</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="quests__item" onclick="">
+            <div class="quests__item-child quests__item-child--marc">
+              <div class="quests__item-wrapper">
+                <h3 class="quests__item-title">Марс-2056</h3>
+                <p class="quests__item-address">пр. Ленина, 37</p>
+                <div class="quests__item-rules">
+                  <p class="quests__item-members">2–4 чел</p>
+                  <p class="quests__item-complexity">легкий</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </section>
+      </section>
+    </div>
+  </main>
+  <section class="modal-location hidden">
+    <div class="modal-location__content">
+      <h2 class="modal-location__title title-small">Ваш город:</h2>
+      <form class="modal-location__form" action="https://echo.htmlacademy.ru" method="post">
+        <button class="modal-location__button" type="submit">Определить местоположение</button>
+        <p class="modal-location__text">... или выберите вручную</p>
+        <ul class="modal-location__list">
+          <li class="modal-location__list-item">
+            <a href="#" class="modal-location__list-link modal-location__list-link--active">Новосибирск</a>
+          </li>
+          <li class="modal-location__list-item">
+            <a href="#" class="modal-location__list-link">Иркутск</a>
+          </li>
+          <li class="modal-location__list-item">
+            <a href="#" class="modal-location__list-link">Смоленск</a>
+          </li>
+          <li class="modal-location__list-item">
+            <a href="#" class="modal-location__list-link">Волгоград</a>
+          </li>
+          <li class="modal-location__list-item">
+            <a href="#" class="modal-location__list-link">Комсомольск-на-Амуре</a>
+          </li>
+        </ul>
+      </form>
+    </div>
+    <button class="modal-location__close modal-button-close" type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+  </section>
+  <section class="modal-contact hidden">
+    <h2 class="modal-contact__title title-small">Задайте вопрос</h2>
+    <form class="modal-contact__form" action="https://echo.htmlacademy.ru" method="post">
+      <div class="modal-contact__wrapper">
+        <div class="modal-contact__field">
+          <label class="modal-contact__input-label" for="user-name">Чтобы мы смогли обращаться к вам, оставьте ваше имя</label>
+          <input id="user-name" type="text" name="user-name" placeholder="Имя" class="modal-contact__input modal-contact__input--name" required="" minlength="3" maxlength="15" autofocus="">
+          <label class="modal-contact__moved">Имя</label>
+        </div>
+        <div class="modal-contact__field">
+          <label class="modal-contact__input-label" for="user-email">Чтобы вы получили ответ, оставьте ваш e-mail </label>
+          <input id="user-email" type="email" name="user-email" placeholder="E-mail" class="modal-contact__input modal-contact__input--email" required="">
+          <label class="modal-contact__moved">E-mail</label>
+        </div>
+        <div class="modal-contact__field">
+          <label class="modal-contact__input-label" for="user-text">Ваш вопрос:</label>
+          <textarea id="user-text" name="user-text" placeholder="Начните вводить ..." class="modal-contact__textarea" required=""></textarea>
+        </div>
+        <button class="modal-contact__submit modal-contact__submit--hover" type="submit">Отправить вопрос</button>
+      </div>
+      <div class="modal-contact__data">
+        <label class="modal-contact__checkbox-label" for="personal-data">
+          <input type="checkbox" name="personal-data" class="modal-contact__checkbox visually-hidden" id="personal-data" checked="">
+          <span class="modal-contact__checkbox-indicator"></span>
+          Я согласен с <a href="#" class="modal-contact__link">правилами обработки персональных данных</a> и пользовательским соглашением
+        </label>
+      </div>
+    </form>
+    <button class="modal-contact__close modal-button-close" type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+  </section>
+  <div class="modal-wrapper hidden"></div>
+  <script src="js/svg4everybody.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/modal-contact.js"></script>
+  <script src="js/modal-location.js"></script>
+</body>
+</html>

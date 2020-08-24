@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Лучшие квесты в Escape Room</title>
+  <link rel="preload" href="fonts/Raleway-Black.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Raleway-Bold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Raleway-ExtraBold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Raleway-Medium.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Raleway-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Raleway-SemiBold.woff2" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <nav class="page-nav page-nav--closed page-nav--nojs">
+    <div class="page-nav__top page-nav-top page-nav-top--closed page-nav-top--nojs">
+      <div class="page-nav-top__content">
+        <div class="page-nav-top__wrapper">
+          <a class="page-nav-top__logo" href="index.html">
+            <img class="page-nav-top__logo-image" src="img/D-logo.svg" width="96" height="36" alt="Логотип Escape Room">
+          </a>
+          <div class="page-nav-top__button">
+            <p class="page-nav-top__mobile">Меню</p>
+            <button class="page-nav-top__toggle" type="button">
+              <span class="visually-hidden">Открыть меню</span>
+            </button>
+          </div>
+        </div>
+        <div class="page-nav-top__list">
+          <ul class="page-nav-top__nav header-page-nav">
+            <li class="header-page-nav__item">
+              <a class="header-page-nav__link header-page-nav__link--active" href="quests.html">Квесты</a>
+            </li>
+            <li class="header-page-nav__item">
+              <a class="header-page-nav__link" href="#">Новичкам</a>
+            </li>
+            <li class="header-page-nav__item">
+              <a class="header-page-nav__link" href="#">Отзывы</a>
+            </li>
+            <li class="header-page-nav__item">
+              <a class="header-page-nav__link" href="#">Акции</a>
+            </li>
+            <li class="header-page-nav__item">
+              <a class="header-page-nav__link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <button class="page-nav-top__city">Новосибирск</button>
+          <a class="page-nav-top__phone" href="tel:83832840160">8 (383) 284 01 60</a>
+        </div>
+      </div>
+    </div>
+    <div class="page-nav__social page-nav-social">
+      <ul class="page-nav-social__list social">
+        <li class="social__item">
+          <a class="social__link social__link--ig" href="#">
+            <span class="visually-hidden">Мы в Инстаграме</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--vk" href="#">
+            <span class="visually-hidden">Мы во Вконтакте</span>
+          </a>
+        </li>
+      </ul>
+      <button class="page-nav-social__form">Задать вопрос</button>
+    </div>
+  </nav>
+  <main class="booking">
+    <div class="content-wrapper">
+      <div class="booking__wrapper">
+        <a href="quests.html" class="button-back">Описание</a>
+        <ul class="booking__breadcrumbs breadcrumbs">
+          <li class="breadcrumbs__item booking__breadcrumbs-desktop">выбранный квест</li>
+          <li class="breadcrumbs__item booking__breadcrumbs-mobile"></li>
+        </ul>
+        <form class="booking__form" action="https://echo.htmlacademy.ru" method="post">
+          <div class="booking__order-info">
+            <div class="booking__title">
+              <h1 class="booking__title-selected title-large"></h1>
+            </div>
+            <section class="booking__checkout">
+              <p class="booking__checkout-text">
+                Вы выбрали игру <br><span class="booking__checkout-date"></span> в <span class="booking__checkout-time"></span>.<br>
+                К оплате <span class="booking__checkout-price"></span> рублей.
+              </p>
+              <button class="booking__checkout-button" type="submit">
+                Перейти к оплате <span class="booking__checkout-icon">►</span>
+              </button>
+            </section>
+          </div>
+          <section class="booking__content">
+            <div class="booking__select-dropdown select-dropdown">
+              <label class="select-dropdown__label" for="select-dropdown">Выберите дату
+                <span class="select-dropdown__icon">►</span>
+              </label>
+              <select id="select-dropdown" class="select-list" name="booking-date">
+                <option selected="" value="march-22" class="select-list__item">22 марта</option>
+                <option value="march-23" class="select-list__item">23 марта</option>
+                <option value="march-24" class="select-list__item">24 марта</option>
+                <option value="march-25" class="select-list__item">25 марта</option>
+                <option value="march-26" class="select-list__item">26 марта</option>
+              </select>
+            </div>
+            <ul class="booking__availability">
+              <li class="booking__availability-item booking__availability-item--free"> — сводобно</li>
+              <li class="booking__availability-item booking__availability-item--occupied"> — занято</li>
+              <li class="booking__availability-item booking__availability-item--selected">  — выбрано вами</li>
+            </ul>
+            <ul class="booking__time">
+              <li class="booking__time-item">
+                <input value="booking-9-45" class="visually-hidden booking__time-radio" type="radio" name="booking-time" id="booking-9-45">
+                <label class="booking__time-label" for="booking-9-45">
+                  <span class="booking__time-text">9:45</span>
+                </label>
+                <p class="booking__price">1400 ₽</p>
+              </li>
+              <li class="booking__time-item">
+                <input value="booking-11-00" class="visually-hidden booking__time-radio" type="radio" name="booking-time" id="booking-11-00">
+                <label class="booking__time-label" for="booking-11-00">
+                  <span class="booking__time-text">11:00</span>
+                </label>
+                <p class="booking__price">1400 ₽</p>
+              </li>
+              <li class="booking__time-item">
+                <input value="booking-12-15" class="visually-hidden booking__time-radio" type="radio" name="booking-time" id="booking-12-15" disabled="">
+                <label class="booking__time-label" for="booking-12-15">
+                  <span class="booking__time-text">12:15</span>
+                </label>
+                <p class="booking__price">1400 ₽</p>
+              </li>
+              <li class="booking__time-item">
+                <input value="booking-13-30" class="visually-hidden booking__time-radio" type="radio" name="booking-time" id="booking-13-30">
+                <label class="booking__time-label" for="booking-13-30">
+                  <span class="booking__time-text">13:30</span>
+                </label>
+                <p class="booking__price">1400 ₽</p>
+              </li>
+              <li class="booking__time-item">
+                <input value="booking-14-45" class="visually-hidden booking__time-radio" type="radio" name="booking-time" id="booking-14-45">
+                <label class="booking__time-label" for="booking-14-45">
+                  <span class="booking__time-text">14:45</span>
+                </label>
+                <p class="booking__price">1400 ₽</p>
+              </li>
+              <li class="booking__time-item">
+                <input value="booking-16-00" class="visually-hidden booking__time-radio" type="radio" name="booking-time" id="booking-16-00" disabled="">
+                <label class="booking__time-label" for="booking-16-00">
+                  <span class="booking__time-text">16:00</span>
+                </label>
+                <p class="booking__price">1500 ₽</p>
+              </li>
+              <li class="booking__time-item">
+                <input value="booking-17-15" class="visually-hidden booking__time-radio" type="radio" name="booking-time" id="booking-17-15">
+                <label class="booking__time-label" for="booking-17-15">
+                  <span class="booking__time-text">17:15</span>
+                </label>
+                <p class="booking__price">1500 ₽</p>
+              </li>
+              <li class="booking__time-item">
+                <input value="booking-18-30" class="visually-hidden booking__time-radio" type="radio" name="booking-time" id="booking-18-30">
+                <label class="booking__time-label" for="booking-18-30">
+                  <span class="booking__time-text">18:30</span>
+                </label>
+                <p class="booking__price">1500 ₽</p>
+              </li>
+              <li class="booking__time-item">
+                <input value="booking-19-45" class="visually-hidden booking__time-radio" type="radio" name="booking-time" id="booking-19-45">
+                <label class="booking__time-label" for="booking-19-45">
+                  <span class="booking__time-text">19:45</span>
+                </label>
+                <p class="booking__price">1500 ₽</p>
+              </li>
+              <li class="booking__time-item">
+                <input value="booking-21-00" class="visually-hidden booking__time-radio" type="radio" name="booking-time" id="booking-21-00" disabled="">
+                <label class="booking__time-label" for="booking-21-00">
+                  <span class="booking__time-text">21:00</span>
+                </label>
+                <p class="booking__price">1800 ₽</p>
+              </li>
+              <li class="booking__time-item">
+                <input value="booking-22-15" class="visually-hidden booking__time-radio" type="radio" name="booking-time" id="booking-22:15" disabled="">
+                <label class="booking__time-label" for="booking-22:15">
+                  <span class="booking__time-text">22:15</span>
+                </label>
+                <p class="booking__price">1800 ₽</p>
+              </li>
+              <li class="booking__time-item">
+                <input value="booking-23:30" class="visually-hidden booking__time-radio" type="radio" name="booking-time" id="booking-23:30" checked="">
+                <label class="booking__time-label" for="booking-23:30">
+                  <span class="booking__time-text">23:30</span>
+                </label>
+                <p class="booking__price">2000 ₽</p>
+              </li>
+            </ul>
+          </section>
+        </form>
+      </div>
+    </div>
+  </main>
+  <section class="modal-location hidden">
+    <div class="modal-location__content">
+      <h2 class="modal-location__title title-small">Ваш город:</h2>
+      <form class="modal-location__form" action="https://echo.htmlacademy.ru" method="post">
+        <button class="modal-location__button" type="submit">Определить местоположение</button>
+        <p class="modal-location__text">... или выберите вручную</p>
+        <ul class="modal-location__list">
+          <li class="modal-location__list-item">
+            <a href="#" class="modal-location__list-link modal-location__list-link--active">Новосибирск</a>
+          </li>
+          <li class="modal-location__list-item">
+            <a href="#" class="modal-location__list-link">Иркутск</a>
+          </li>
+          <li class="modal-location__list-item">
+            <a href="#" class="modal-location__list-link">Смоленск</a>
+          </li>
+          <li class="modal-location__list-item">
+            <a href="#" class="modal-location__list-link">Волгоград</a>
+          </li>
+          <li class="modal-location__list-item">
+            <a href="#" class="modal-location__list-link">Комсомольск-на-Амуре</a>
+          </li>
+        </ul>
+      </form>
+    </div>
+    <button class="modal-location__close modal-button-close" type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+  </section>
+  <section class="modal-contact hidden">
+    <h2 class="modal-contact__title title-small">Задайте вопрос</h2>
+    <form class="modal-contact__form" action="https://echo.htmlacademy.ru" method="post">
+      <div class="modal-contact__wrapper">
+        <div class="modal-contact__field">
+          <label class="modal-contact__input-label" for="user-name">Чтобы мы смогли обращаться к вам, оставьте ваше имя</label>
+          <input id="user-name" type="text" name="user-name" placeholder="Имя" class="modal-contact__input modal-contact__input--name" required="" minlength="3" maxlength="15" autofocus="">
+          <label class="modal-contact__moved">Имя</label>
+        </div>
+        <div class="modal-contact__field">
+          <label class="modal-contact__input-label" for="user-email">Чтобы вы получили ответ, оставьте ваш e-mail </label>
+          <input id="user-email" type="email" name="user-email" placeholder="E-mail" class="modal-contact__input modal-contact__input--email" required="">
+          <label class="modal-contact__moved">E-mail</label>
+        </div>
+        <div class="modal-contact__field">
+          <label class="modal-contact__input-label" for="user-text">Ваш вопрос:</label>
+          <textarea id="user-text" name="user-text" placeholder="Начните вводить ..." class="modal-contact__textarea" required=""></textarea>
+        </div>
+        <button class="modal-contact__submit modal-contact__submit--hover" type="submit">Отправить вопрос</button>
+      </div>
+      <div class="modal-contact__data">
+        <label class="modal-contact__checkbox-label" for="personal-data">
+          <input type="checkbox" name="personal-data" class="modal-contact__checkbox visually-hidden" id="personal-data" checked="">
+          <span class="modal-contact__checkbox-indicator"></span>
+          Я согласен с <a href="#" class="modal-contact__link">правилами обработки персональных данных</a> и пользовательским соглашением
+        </label>
+      </div>
+    </form>
+    <button class="modal-contact__close modal-button-close" type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+  </section>
+  <div class="modal-wrapper hidden"></div>
+  <script src="js/svg4everybody.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/booking.js"></script>
+  <script src="js/modal-contact.js"></script>
+  <script src="js/modal-location.js"></script>
+  <script src="js/select-dropdown.js"></script>
+</body>
+</html>

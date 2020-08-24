@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Лучшие квесты в Escape Room</title>
+  <link rel="preload" href="fonts/Raleway-Black.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Raleway-Bold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Raleway-ExtraBold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Raleway-Medium.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Raleway-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Raleway-SemiBold.woff2" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <nav class="page-nav page-nav--closed page-nav--nojs">
+    <div class="page-nav__top page-nav-top page-nav-top--closed page-nav-top--nojs">
+      <div class="page-nav-top__content">
+        <div class="page-nav-top__wrapper">
+          <a class="page-nav-top__logo" href="index.html">
+            <img class="page-nav-top__logo-image" src="img/D-logo.svg" width="96" height="36" alt="Логотип Escape Room">
+          </a>
+          <div class="page-nav-top__button">
+            <p class="page-nav-top__mobile">Меню</p>
+            <button class="page-nav-top__toggle" type="button">
+              <span class="visually-hidden">Открыть меню</span>
+            </button>
+          </div>
+        </div>
+        <div class="page-nav-top__list">
+          <ul class="page-nav-top__nav header-page-nav">
+            <li class="header-page-nav__item">
+              <a class="header-page-nav__link header-page-nav__link--active" href="quests.html">Квесты</a>
+            </li>
+            <li class="header-page-nav__item">
+              <a class="header-page-nav__link" href="#">Новичкам</a>
+            </li>
+            <li class="header-page-nav__item">
+              <a class="header-page-nav__link" href="#">Отзывы</a>
+            </li>
+            <li class="header-page-nav__item">
+              <a class="header-page-nav__link" href="#">Акции</a>
+            </li>
+            <li class="header-page-nav__item">
+              <a class="header-page-nav__link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <button class="page-nav-top__city">Новосибирск</button>
+          <a class="page-nav-top__phone" href="tel:83832840160">8 (383) 284 01 60</a>
+        </div>
+      </div>
+    </div>
+    <div class="page-nav__social page-nav-social">
+      <ul class="page-nav-social__list social">
+        <li class="social__item">
+          <a class="social__link social__link--ig" href="#">
+            <span class="visually-hidden">Мы в Инстаграме</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--vk" href="#">
+            <span class="visually-hidden">Мы во Вконтакте</span>
+          </a>
+        </li>
+      </ul>
+      <button class="page-nav-social__form">Задать вопрос</button>
+    </div>
+  </nav>
+  <main class="quest-content quest-content--maniac">
+    <div class="content-wrapper">
+      <div class="quest-content__wrapper">
+        <a href="quests.html" class="button-back">Все квесты</a>
+        <div class="quest-content__main">
+          <ul class="quest-content__breadcrumbs breadcrumbs">
+            <li class="breadcrumbs__item">хоррор, триллер</li>
+          </ul>
+          <h1 class="quest-content__title title-large">Маньяк</h1>
+          <ul class="quest-content__settings quest-settings">
+            <li class="quest-settings__item quest-settings__item--clock">
+              <span class="quest-settings__pic quest-settings__pic--clock">
+                <svg class="quest-settings__icon quest-settings__icon" width="24" height="24">
+                  <use xlink:href="img/sprite.svg#icon-clock"></use>
+                </svg>
+              </span>
+              <p class="quest-settings__text">60 мин</p>
+            </li>
+            <li class="quest-settings__item quest-settings__item--person">
+              <span class="quest-settings__pic quest-settings__pic--person">
+                <svg class="quest-settings__icon" width="19" height="24">
+                  <use xlink:href="img/sprite.svg#icon-person-large"></use>
+                </svg>
+              </span>
+              <p class="quest-settings__text">3–4 чел</p>
+            </li>
+            <li class="quest-settings__item quest-settings__item--puzzle">
+              <span class="quest-settings__pic quest-settings__pic--puzzle">
+                <svg class="quest-settings__icon" width="24" height="24">
+                  <use xlink:href="img/sprite.svg#icon-puzzle-large"></use>
+                </svg>
+              </span>
+              <p class="quest-settings__text">средняя сложность</p>
+            </li>
+          </ul>
+          <p class="quest-content__desc-text">В комнате с приглушённым светом несколько человек, незнакомых друг с другом, приходят в себя. Никто не помнит, что произошло прошлым вечером.
+            Руки и ноги связаным, но одному из вас получилось освободиться. На стене висит пугающий таймер и запущен отсчет 60 минут. Сможете ли вы разобраться в стрессовой ситуации, помочь другим, разобраться что произошло и выбраться из комнаты?
+          </p>
+          <form action="booking.html">
+            <button type="submit" value="Маньяк" class="quest-content__button">Забронировать</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section class="modal-location hidden">
+    <div class="modal-location__content">
+      <h2 class="modal-location__title title-small">Ваш город:</h2>
+      <form class="modal-location__form" action="https://echo.htmlacademy.ru" method="post">
+        <button class="modal-location__button" type="submit">Определить местоположение</button>
+        <p class="modal-location__text">... или выберите вручную</p>
+        <ul class="modal-location__list">
+          <li class="modal-location__list-item">
+            <a href="#" class="modal-location__list-link modal-location__list-link--active">Новосибирск</a>
+          </li>
+          <li class="modal-location__list-item">
+            <a href="#" class="modal-location__list-link">Иркутск</a>
+          </li>
+          <li class="modal-location__list-item">
+            <a href="#" class="modal-location__list-link">Смоленск</a>
+          </li>
+          <li class="modal-location__list-item">
+            <a href="#" class="modal-location__list-link">Волгоград</a>
+          </li>
+          <li class="modal-location__list-item">
+            <a href="#" class="modal-location__list-link">Комсомольск-на-Амуре</a>
+          </li>
+        </ul>
+      </form>
+    </div>
+    <button class="modal-location__close modal-button-close" type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+  </section>
+  <section class="modal-contact hidden">
+    <h2 class="modal-contact__title title-small">Задайте вопрос</h2>
+    <form class="modal-contact__form" action="https://echo.htmlacademy.ru" method="post">
+      <div class="modal-contact__wrapper">
+        <div class="modal-contact__field">
+          <label class="modal-contact__input-label" for="user-name">Чтобы мы смогли обращаться к вам, оставьте ваше имя</label>
+          <input id="user-name" type="text" name="user-name" placeholder="Имя" class="modal-contact__input modal-contact__input--name" required="" minlength="3" maxlength="15" autofocus="">
+          <label class="modal-contact__moved">Имя</label>
+        </div>
+        <div class="modal-contact__field">
+          <label class="modal-contact__input-label" for="user-email">Чтобы вы получили ответ, оставьте ваш e-mail </label>
+          <input id="user-email" type="email" name="user-email" placeholder="E-mail" class="modal-contact__input modal-contact__input--email" required="">
+          <label class="modal-contact__moved">E-mail</label>
+        </div>
+        <div class="modal-contact__field">
+          <label class="modal-contact__input-label" for="user-text">Ваш вопрос:</label>
+          <textarea id="user-text" name="user-text" placeholder="Начните вводить ..." class="modal-contact__textarea" required=""></textarea>
+        </div>
+        <button class="modal-contact__submit modal-contact__submit--hover" type="submit">Отправить вопрос</button>
+      </div>
+      <div class="modal-contact__data">
+        <label class="modal-contact__checkbox-label" for="personal-data">
+          <input type="checkbox" name="personal-data" class="modal-contact__checkbox visually-hidden" id="personal-data" checked="">
+          <span class="modal-contact__checkbox-indicator"></span>
+          Я согласен с <a href="#" class="modal-contact__link">правилами обработки персональных данных</a> и пользовательским соглашением
+        </label>
+      </div>
+    </form>
+    <button class="modal-contact__close modal-button-close" type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+  </section>
+  <div class="modal-wrapper hidden"></div>
+  <script src="js/svg4everybody.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/modal-contact.js"></script>
+  <script src="js/modal-location.js"></script>
+  <script src="js/quest-data.js"></script>
+</body>
+</html>
